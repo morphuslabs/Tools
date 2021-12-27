@@ -2,7 +2,7 @@ import sys
 import re
 
 if len(sys.argv) < 3:
-    print("ERR: informe o arquivo TMP e o arquivo de saida")
+    print("ERR: please inform the TMP file and the output file.")
     sys.exit(1)
 
 input_file = open(sys.argv[1], 'r')
